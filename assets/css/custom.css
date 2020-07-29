@@ -13,3 +13,7 @@
 .swiper-paginations{
   text-align: center;
 }
+.swiper-containerz {
+  width: 100%;
+  height: 100%;
+}
