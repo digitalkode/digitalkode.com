@@ -34,7 +34,7 @@ var swipers = new Swiper('.swiper-containers', {
   }
 });
 var swiperz = new Swiper('.swiper-containerz', {
-  slidesPerView: 10,
+  slidesPerView: 7,
   spaceBetween: 20,
   loop:true,
   autoplay: {
@@ -43,11 +43,11 @@ var swiperz = new Swiper('.swiper-containerz', {
   },
   breakpoints: {
     480: {
-      slidesPerView: 4,
+      slidesPerView: 3,
       spaceBetween: 20
     },
     768: {
-      slidesPerView: 6,
+      slidesPerView: 4,
       spaceBetween: 20
     }
   }
