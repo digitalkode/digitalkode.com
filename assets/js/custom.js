@@ -34,28 +34,21 @@ var swipers = new Swiper('.swiper-containers', {
   }
 });
 var swiperz = new Swiper('.swiper-containerz', {
-  slidesPerView: 5,
-  spaceBetween: 50,
+  slidesPerView: 10,
+  spaceBetween: 20,
   loop:true,
   autoplay: {
     delay: 1000,
     reverseDirection:true,
   },
   breakpoints: {
-    // when window width is >= 320px
-    320: {
-      slidesPerView: 2,
+    480: {
+      slidesPerView: 4,
       spaceBetween: 20
     },
-    // when window width is >= 480px
-    480: {
-      slidesPerView: 2,
-      spaceBetween: 30
-    },
-    // when window width is >= 640px
-    640: {
-      slidesPerView: 2,
-      spaceBetween: 40
+    768: {
+      slidesPerView: 6,
+      spaceBetween: 20
     }
   }
 });
