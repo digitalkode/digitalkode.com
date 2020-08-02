@@ -54,11 +54,13 @@ html,body{
   
 
   .site-mobile a {
-    float: left;
+    width: 100%;
+    text-align: center;
     padding: 12px;
     color: white;
     text-decoration: none;
     font-size: 17px;
+    display: block;
   }
   .site-mobile active {
     background-color: #4CAF50;
