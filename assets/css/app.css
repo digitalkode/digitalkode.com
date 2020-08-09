@@ -640,7 +640,7 @@ li.menu-item-has-children
 a:hover{color:#7052fb}
 .site-header.header-two .toggle-menu .bar{background:#2b2350}
 .header-inner .site-mobile-logo img{max-height:50px;-webkit-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
-.pix-header-fixed .toggle-menu{top:30px}
+.pix-header-fixed .toggle-menu{top:36px}
 .pix-header-fixed .toggle-menu .bar{background:#333}
 .pix-header-fixed .site-main-menu li.menu-item-has-children:after,.pix-header-fixed .site-main-menu li a{color:#fff}
 .pix-header-fixed .header-inner .site-logo{padding:12px 0}
