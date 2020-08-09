@@ -69,3 +69,8 @@ html,body{
     margin-bottom: 65px;
   }
 }
+
+.tech-in-stack img {
+  width: 100%;
+  border-radius: 20px;
+}
